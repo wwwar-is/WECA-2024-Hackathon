@@ -11,32 +11,29 @@ Platinum: #E0E0E0
 */
 
 /* Google fonts */
-/* Averia Serif Libre */ @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-/* Poppins */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Averia Serif Libre */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Navbar */
 
 nav {
     font-family: 'Averia Serif Libre', sans-serif;
-    background-color: #0F2C2E; 
+    background-color: #0F2C2E;
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%, #0F2C2E 100%);
 }
 
-nav, #nav-engineering-orange {
+nav,
+#nav-engineering-orange {
     color: #BD2A12;
-    text-shadow: 
-        -1px -1px 0 #380C05,  
-         1px -1px 0 #380C05,
-        -1px  1px 0 #380C05,
-         1px  1px 0 #380C05;
+    text-shadow: -1px -1px 0 #380C05, 1px -1px 0 #380C05, -1px 1px 0 #380C05, 1px 1px 0 #380C05;
 }
 
-nav, #nav-engineering-orange:hover {
+nav,
+#nav-engineering-orange:hover {
     color: #BD2A12;
-    text-shadow: 
-        -1px -1px 0 #FACEC7,  
-         1px -1px 0 #FACEC7,
-        -1px  1px 0 #FACEC7,
-         1px  1px 0 #FACEC7;
+    text-shadow: -1px -1px 0 #FACEC7, 1px -1px 0 #FACEC7, -1px 1px 0 #FACEC7, 1px 1px 0 #FACEC7;
 }
 
 .navbar-toggler {
@@ -44,7 +41,7 @@ nav, #nav-engineering-orange:hover {
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28189, 24, 18, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28189, 24, 18, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-toggler {
@@ -58,21 +55,22 @@ nav, #nav-engineering-orange:hover {
 .border-text {
     color: #E0E0E0; /* Text color */
     font-size: 50px; /* Size of the text */
-    
-    text-shadow: 
-        -1px -1px 0 #121216,  
-         1px -1px 0 #121216,
-        -1px  1px 0 #121216,
-         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+
+    text-shadow: -1px -1px 0 #121216, 1px -1px 0 #121216, -1px 1px 0 #121216, 1px 1px 0 #121216; /* Shadow effect simulating a black border */
 }
 
 /* Body Style */
 
 .bg-image {
-    background-image: url(/assets/images/scary-artist.jpg);
+    background-image: url('../images/Background\ orangeteal.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
 }
 
 /* Footer Styles */
@@ -85,32 +83,21 @@ footer {
 .footer-border-text {
     color: #E0E0E0; /* Text color */
     font-size: 30px; /* Size of the text */
-    text-shadow: 
-        -1px -1px 0 #121216,  
-         1px -1px 0 #121216,
-        -1px  1px 0 #121216,
-         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+    text-shadow: -1px -1px 0 #121216, 1px -1px 0 #121216, -1px 1px 0 #121216, 1px 1px 0 #121216; 
 }
 
 .footer-text-border-nav {
     color: #BD2A12; /* Text color */
-    text-shadow: 
-        -1px -1px 0 #FACEC7,  
-         1px -1px 0 #FACEC7,
-        -1px  1px 0 #FACEC7,
-         1px  1px 0 #FACEC7; /* Shadow effect simulating a black border */
+    text-shadow: -1px -1px 0 #FACEC7, 1px -1px 0 #FACEC7, -1px 1px 0 #FACEC7, 1px 1px 0 #FACEC7; 
 }
 
 .text-shadow {
-    text-shadow: 
-        -1px -1px 0 #121216,  
-         1px -1px 0 #121216,
-        -1px  1px 0 #121216,
-         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+    text-shadow: -1px -1px 0 #121216, 1px -1px 0 #121216, -1px 1px 0 #121216, 1px 1px 0 #121216; 
 }
 
 .footer-background {
     background-color: #0F2C2E;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #0F2C2E 100%);
 }
 
 .footer-font {
@@ -138,8 +125,10 @@ footer {
     background-color: hsla(0, 100%, 50%, 0.5);
 }
 
-.footer-nav {
-    list-style-type: none;
+@media (max-width: 991.98px) {
+    .footer-nav-link {
+        display: none;
+    }
 }
 
 .footer-nav-link {
@@ -147,5 +136,13 @@ footer {
 }
 
 .footer-nav-link:hover {
+    color: #B3E3E6;
+}
+
+.footer-social-link {
+    color: #BD2A12;
+}
+
+.footer-social-link:hover {
     color: #B3E3E6;
 }
