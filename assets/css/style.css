@@ -51,6 +51,10 @@ nav, #nav-engineering-orange:hover {
     color: #FACEC7;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 .border-text {
     color: rgb(14, 14, 14); /* Text color */
     font-size: 50px; /* Size of the text */
