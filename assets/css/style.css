@@ -66,11 +66,25 @@ nav, #nav-engineering-orange:hover {
          1px  1px 0 #121216; /* Shadow effect simulating a black border */
 }
 
+/* Body Style */
+
+.bg-image {
+    background-image: url(/assets/images/scary-artist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Footer Styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 .footer-border-text {
     color: #E0E0E0; /* Text color */
-    font-size: 50px; /* Size of the text */
+    font-size: 30px; /* Size of the text */
     text-shadow: 
         -1px -1px 0 #121216,  
          1px -1px 0 #121216,
