@@ -30,12 +30,20 @@ Platinum: #E0E0E0
 .footer-border-text {
     color: #E0E0E0; /* Text color */
     font-size: 50px; /* Size of the text */
-    
     text-shadow: 
         -1px -1px 0 #121216,  
          1px -1px 0 #121216,
         -1px  1px 0 #121216,
          1px  1px 0 #121216; /* Shadow effect simulating a black border */
+}
+
+.footer-text-border-nav {
+    color: #BD2A12; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #FACEC7,  
+         1px -1px 0 #FACEC7,
+        -1px  1px 0 #FACEC7,
+         1px  1px 0 #FACEC7; /* Shadow effect simulating a black border */
 }
 
 .text-shadow {
@@ -52,7 +60,6 @@ Platinum: #E0E0E0
 
 .footer-font {
     font-family: "Averia Serif Libre", sans-serif;
-    font-size: x-large;
 }
 
 .footer-font-secondary {
@@ -68,11 +75,22 @@ Platinum: #E0E0E0
     color: #B3E3E6;
 }
 
-.back-to-top {
-
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    color: #BD2A12;
 }
 
+.footer-nav {
+    list-style-type: none;
+}
 
-.back-to-top:hover {
+.footer-nav-link {
     color: #BD2A12;
+}
+
+.footer-nav-link:hover {
+    color: #B3E3E6;
 }
