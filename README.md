@@ -8,6 +8,7 @@
 
 
 
+
 ### User stories
 
 - __Homepage__
@@ -31,6 +32,32 @@
 
   - 
 
+## Wireframes
+
+- __Homepage__
+  - Low fidelity
+  ![image info](assets/wireframes/Homepage.png)
+  - High fidelity
+  ![image info](assets/wireframes/Homepage-High-fidelity.png)
+
+- __Gallery__
+  - Low fidelity
+  ![image info](assets/wireframes/Gallery-page.png)
+  - High fidelity
+  ![image info](assets/wireframes/Gallery-page-High-fidelity.png)
+
+- __About__
+  - Low fidelity
+  ![image info](assets/wireframes/About-page.png)
+  - High fidelity
+  ![image info](assets/wireframes/About-page-High-fidelity.png)
+
+- __Contact__
+  - Low fidelity
+  ![image info](assets/wireframes/Contact-page.png)
+  - High fidelity
+  ![image info](assets/wireframes/Contact-page-High-fidelity.png)
+  
 ### Existing Features
 
 
