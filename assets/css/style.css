@@ -15,12 +15,64 @@ Platinum: #E0E0E0
 /* Poppins */ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .border-text {
-    color: rgb(14, 14, 14); /* Text color */
+    color: #E0E0E0; /* Text color */
     font-size: 50px; /* Size of the text */
     
     text-shadow: 
-        -1px -1px 0 #fafafa,  
-         1px -1px 0 #fafafa,
-        -1px  1px 0 #fafafa,
-         1px  1px 0 #fafafa; /* Shadow effect simulating a black border */
+        -1px -1px 0 #121216,  
+         1px -1px 0 #121216,
+        -1px  1px 0 #121216,
+         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+}
+
+/* Footer Styles */
+
+.footer-border-text {
+    color: #E0E0E0; /* Text color */
+    font-size: 50px; /* Size of the text */
+    
+    text-shadow: 
+        -1px -1px 0 #121216,  
+         1px -1px 0 #121216,
+        -1px  1px 0 #121216,
+         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+}
+
+.text-shadow {
+    text-shadow: 
+        -1px -1px 0 #121216,  
+         1px -1px 0 #121216,
+        -1px  1px 0 #121216,
+         1px  1px 0 #121216; /* Shadow effect simulating a black border */
+}
+
+.footer-background {
+    background-color: #0F2C2E;
+}
+
+.footer-font {
+    font-family: "Averia Serif Libre", sans-serif;
+    font-size: x-large;
+}
+
+.footer-font-secondary {
+    font-family: "Averia Serif Libre", sans-serif;
+    color: #E0E0E0;
+}
+
+.fa-brands {
+    color: #BD2A12;
+}
+
+.fa-solid {
+    color: #B3E3E6;
+}
+
+.back-to-top {
+
+}
+
+
+.back-to-top:hover {
+    color: #BD2A12;
 }
