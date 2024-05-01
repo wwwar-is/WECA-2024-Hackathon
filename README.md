@@ -17,11 +17,13 @@
 
 - __Homepage__
 
-  - 
+  - As a user I want to see highlights of the artist's recent work so that I can quickly and easily learn about their skills.
+  - As the artist I want to have a scroll through experience showing off my best works so that I can impress the audience.
 
 - __Navigation__
 
   - As a user I want an attractive and simple navigation bar on every page so that I can easily navigate through the website.
+
 
 
 - __Contact__
@@ -32,11 +34,14 @@
 
   - As a user I want access to high resolution versions of the art work so that I can properly view the artist's art.
   - As a user I want the high quality images to open in a new tab so that I can keep exploring the main website from where I was.
+  - As a user I want to see the titles and quick info of each piece of artwork as I hover over them so that I can learn more about them quickly.
 
 - __About__
 
   - As a user I want to see pictures of the artist so that I can get to know them more.
   - As the artist I want pictures of myself shown to the user so that I can present myself well.
+  - As a user I want to see the artist's biography so that I can learn more about them.
+  - As a user I want to see a timeline of the artist's work/life so that I can quickly learn about their journey as an artist
 
 - __Footer__
 
