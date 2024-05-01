@@ -94,7 +94,7 @@ p {
     background-repeat: no-repeat;
 }
 
-.hero-image {
+.hero-image-two {
     position: relative;
     height: 100vh; 
     background-size: cover;
@@ -103,28 +103,42 @@ p {
     background-repeat: no-repeat;
 }
 
-.hero-text {
-    position: absolute;
-    bottom: 400px; /* Adjust vertical position */
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 10px 20px;
-    border-radius: 5px;
-    max-width: 80%; /* Adjust width as needed */
+.hero-image-three {
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
-/* Custom CSS for alternating text position */
+.hero-text {
+    position: absolute;
+    bottom: 400px; 
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 80%; 
+    height: fit-content;
+}
+
+/*alternating text position */
 .hero-text.left {
-    left: 100px; /* Adjust horizontal position */
+    left: 80px; 
+    top: 200px;
+    padding-right: 10%;
 }
 
 .hero-text.right {
-    right: 100px; /* Adjust horizontal position */
+    right: 80px; 
+    top: 200px;
+    padding-left: 10%;
 }
 
 /* Footer Styles */
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -171,7 +185,7 @@ footer {
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     color: #B3E3E6
 }
 
