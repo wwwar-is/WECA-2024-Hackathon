@@ -118,17 +118,16 @@ footer {
 }
 
 #btn-back-to-top {
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 20px;
     color: #BD2A12;
     background-color: hsla(0, 100%, 50%, 0.5);
+    z-index: 1;
 }
 
-@media (max-width: 991.98px) {
-    .footer-nav-link {
-        display: none;
-    }
+#btn-back-to-top:hover {
+    color: #B3E3E6;
 }
 
 .footer-nav-link {
@@ -145,4 +144,8 @@ footer {
 
 .footer-social-link:hover {
     color: #B3E3E6;
+}
+
+.footer-nav-item {
+    font-family: 'Averia Serif Libre', sans-serif;
 }
