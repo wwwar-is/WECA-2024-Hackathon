@@ -41,6 +41,7 @@ nav,
 #nav-engineering-orange {
     color: #BD2A12;
     text-shadow: -1px -1px 0 #380C05, 1px -1px 0 #380C05, -1px 1px 0 #380C05, 1px 1px 0 #380C05;
+    letter-spacing: 2px;
 }
 
 nav,
@@ -60,6 +61,21 @@ nav,
 .navbar-toggler {
     color: #FACEC7;
 }
+
+@media (max-width: 768px) {
+    .navbar-collapse nav.navbar {
+      background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, #0F2C2E 50%);
+      width: 100%;
+      background-color: #0F2C2E; 
+    }
+}
+
+@media (max-width: 991px) { 
+    #nav-engineering-orange {
+    color: #BD2A12;
+    text-shadow: -1px -1px 0 #E0E0E0, 1px -1px 0 #E0E0E0, -1px 1px 0 #E0E0E0, 1px 1px 0 #E0E0E0;
+    }
+  }
 
 .active {
     text-decoration: underline;
@@ -115,15 +131,31 @@ p {
 .hero-text {
     position: absolute;
     bottom: 400px; 
-    color: #fff;
+    color: #E0E0E0;
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 20px;
-    border-radius: 5px;
     max-width: 80%; 
     height: fit-content;
 }
 
+.hero-text-one {
+    position: absolute;
+    bottom: 400px; 
+    color:#E0E0E0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    max-width: 80%; 
+    height: fit-content;
+}
+
+
 /*alternating text position */
+.hero-text-one.left {
+    left: 80px; 
+    top: 400px;
+    padding-right: 10%;
+}
+
 .hero-text.left {
     left: 80px; 
     top: 200px;
@@ -194,7 +226,11 @@ footer {
 }
 
 .btn-danger {
-    background-color:#0F2C2E;
+    background-color:#BD2A12;
+}
+
+.btn-danger:hover {
+    background-color:#B3E3E6;
 }
 
 .footer-nav-link {
