@@ -159,13 +159,4 @@ footer {
     color: #B3E3E6;
 }
 
-/* Background image */
 
-#bg-cobweb {
-    background-image: url(../images/man\ walking\ in\ apocolypse.png);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(4px);
-  }
