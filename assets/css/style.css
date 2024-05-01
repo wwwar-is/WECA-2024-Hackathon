@@ -1,6 +1,6 @@
 /* Colour Pallet 2.0 */
 /*
-Verdigris: ##379EA4
+Verdigris: #379EA4
 Verdigris dark accent: #0F2C2E
 Verdigris light accent: #B3E3E6
 Engineering orange: #BD2A12
@@ -206,6 +206,45 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: 100%;
+}
+
+main h2 {
+    font-family: 'Averia Serif Libre', sans-serif;
+    color: #E0E0E0;
+    text-shadow: -1px -1px 0 #121216, 1px -1px 0 #121216, -1px 1px 0 #121216, 1px 1px 0 #121216;
+}
+
+main p {
+    font-family: Poppins, sans-serif;
+}
+
+#main-positioning {
+    margin-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+main img {
+    width: 500px; /* You can set the dimensions to whatever you want */
+    height: 500px;
+    object-fit: cover;
+}
+
+main i {
+    color: #BD2A12 !important;
+    transition: 0.3s;
+    text-shadow: none;
+}
+
+main i:hover {
+    color: #379EA4 !important;
+}
+
+.bg-white {
+    background-color: rgba(18, 18, 22, 0.4) !important;
+}
+
+main p {
+    color: #E0E0E0;
 }
