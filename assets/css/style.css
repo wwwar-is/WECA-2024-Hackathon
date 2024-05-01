@@ -193,6 +193,10 @@ footer {
     color: #0F2C2E;
 }
 
+.btn-danger {
+    background-color:#0F2C2E;
+}
+
 .footer-nav-link {
     color: #BD2A12;
 }
