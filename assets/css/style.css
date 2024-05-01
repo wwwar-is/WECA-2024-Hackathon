@@ -121,13 +121,12 @@ footer {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    color: #BD2A12;
-    background-color: hsla(0, 100%, 50%, 0.5);
-    z-index: 1;
+    color: #B3E3E6
+    background-color: hsla(0, 70%, 50%, 0.5)
 }
 
 #btn-back-to-top:hover {
-    color: #B3E3E6;
+    color: #0F2C2E;
 }
 
 .footer-nav-link {
