@@ -202,7 +202,7 @@ footer {
 /* About page styling */
 
 .bg-image-about-desktop {
-    background-image: url(../images/giger-spheres-blur.png);
+    background-image: url(../images/giger-2aliens-blur.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ footer {
 }
 
 .bg-image-about-mobile {
-    background-image: url(../images/giger-spheres-blur.png);
+    background-image: url(../images/giger-2aliens-blur.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -238,4 +238,30 @@ footer {
 .about-black-transparent {
     background-color: rgba(18, 18, 22,0.5);
     padding: 2%;
+}
+
+/* Contact page styling */
+
+.bg-image-contact-desktop {
+    background-image: url(../images/giger-blackhole-blur.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-image-contact-mobile {
+    background-image: url(../images/giger-blackhole-blur.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
