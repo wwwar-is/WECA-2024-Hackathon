@@ -248,3 +248,23 @@ main i:hover {
 main p {
     color: #E0E0E0;
 }
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 1.5em;
+}
+
+::-webkit-scrollbar-track {
+    background: #380C05;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BD2A12;
+    border: .25em solid #380C05;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FACEC7;
+}
