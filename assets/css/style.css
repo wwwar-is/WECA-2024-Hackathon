@@ -64,6 +64,14 @@ nav,
 
 /* Body Style Home*/
 
+h2 {
+    font-family: "Averia Serif Libre", sans-serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
 /* Custom CSS for hero images */
 
 .hero-image-one {
