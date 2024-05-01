@@ -26,10 +26,15 @@ Platinum: #E0E0E0
 
 /* Navbar */
 
-nav {
+nav.navbar {
     font-family: 'Averia Serif Libre', sans-serif;
     background-color: #0F2C2E;
-    background: linear-gradient(to top, rgba(255,255,255,0) 0%, #0F2C2E 100%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #0F2C2E 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
 }
 
 nav,
@@ -67,25 +72,62 @@ nav,
     text-shadow: -1px -1px 0 #121216, 1px -1px 0 #121216, -1px 1px 0 #121216, 1px 1px 0 #121216; /* Shadow effect simulating a black border */
 }
 
-/* Body Style */
+/* Body Style Home*/
 
-.bg-image {
-    background-image: url('../images/Background\ orangeteal.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+h2 {
+    font-family: "Averia Serif Libre", sans-serif;
 }
 
-#hero {
-    width: 100%;
-    height: 100vh;
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Custom CSS for hero images */
+
+.hero-image-one {
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed; 
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.hero-image {
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 400px; /* Adjust vertical position */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 80%; /* Adjust width as needed */
+}
+
+/* Custom CSS for alternating text position */
+.hero-text.left {
+    left: 100px; /* Adjust horizontal position */
+}
+
+.hero-text.right {
+    right: 100px; /* Adjust horizontal position */
 }
 
 /* Footer Styles */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
+    width: 100%;
     font-family: 'Averia Serif Libre', sans-serif;
 }
 
@@ -127,16 +169,14 @@ footer {
 }
 
 #btn-back-to-top {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     right: 20px;
-    color: #BD2A12;
-    background-color: hsla(0, 100%, 50%, 0.5);
-    z-index: 1;
+    color: #B3E3E6
 }
 
 #btn-back-to-top:hover {
-    color: #B3E3E6;
+    color: #0F2C2E;
 }
 
 .footer-nav-link {
