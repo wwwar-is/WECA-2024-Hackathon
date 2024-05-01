@@ -95,7 +95,7 @@ h2 {
 }
 
 p {
-    font-family: "Poppins", sans-serif;
+    font-family: "Averia Serif Libre", sans-serif;
 }
 
 /* Custom CSS for hero images */
@@ -251,4 +251,45 @@ footer {
 
 .footer-nav-item {
     font-family: 'Averia Serif Libre', sans-serif;
+}
+
+/* About page styling */
+
+.bg-image-about-desktop {
+    background-image: url(../images/giger-spheres-blur.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-image-about-mobile {
+    background-image: url(../images/giger-spheres-blur.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.about-white {
+    color:#BD2A12;
+    background-color: rgba(224, 224, 224, 0.8);
+}
+
+.about-red {
+    color: #E0E0E0;
+    background-color: rgba(189, 42, 18, 0.8);
+}
+
+.about-black-transparent {
+    background-color: rgba(18, 18, 22,0.5);
+    padding: 2%;
 }
