@@ -158,3 +158,14 @@ footer {
 .footer-nav-item {
     font-family: 'Averia Serif Libre', sans-serif;
 }
+
+/* Gallery Styles */
+
+.bg-image {
+    background-image: url(../images/gigerowski-forest-blur.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
