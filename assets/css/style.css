@@ -227,12 +227,12 @@ footer {
 
 .about-white {
     color:#BD2A12;
-    background-color: #E0E0E0;
+    background-color: rgba(224, 224, 224, 0.8);
 }
 
 .about-red {
     color: #E0E0E0;
-    background-color: #BD2A12;
+    background-color: rgba(189, 42, 18, 0.8);
 }
 
 .about-black-transparent {
