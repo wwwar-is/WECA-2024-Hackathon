@@ -132,10 +132,11 @@ p {
     position: absolute;
     bottom: 400px; 
     color: #E0E0E0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px 20px;
-    max-width: 80%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;  
     height: fit-content;
+    width: fit-content;
+    max-width: 60%;
 }
 
 .hero-text-one {
