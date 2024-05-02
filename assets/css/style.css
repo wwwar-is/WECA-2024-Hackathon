@@ -202,6 +202,10 @@ footer {
     font-family: "Averia Serif Libre", sans-serif;
 }
 
+.footer-text-position {
+    bottom: 1rem;
+}
+
 .footer-font-secondary {
     font-family: "Averia Serif Libre", sans-serif;
     color: #E0E0E0;
