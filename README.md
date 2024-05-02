@@ -1,8 +1,9 @@
 # Horror art portfolio
 
+For the Code Institute Bootcamp Hackathon #1, our team decided to complete the art portfolio project. We were inspired by the works of H.R.Giger and Zdzyslaw Beksinski and their particular brands of surrealist horror. By combining their styles, we created a fake artist named Z.D.Gigerowski. This static webpage made with HTML, CSS and Bootstrap is his portfolio.
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/readme-images/responsive-mockup.png)
 
 ## Features 
 
@@ -56,34 +57,36 @@
   - As a user, I want to see a contact link in the footer so that I can easily contact the artist.
   - As a user, I want back to top button on the footer so that I can return to the top of the page with only 1 click.
 
-## MoSCoW Table
+### MoSCoW Table
+
+ - ![moscow table](assets/readme-images/moscow-table.png)
 
 
 ## Wireframes
 
 - __Homepage__
   - Low fidelity
-  ![image info](assets/wireframes/Homepage.png)
+  ![wireframes](assets/wireframes/Homepage.png)
   - High fidelity
-  ![image info](assets/wireframes/Homepage-High-fidelity.png)
+  ![wireframes](assets/wireframes/Homepage-High-fidelity.png)
 
 - __Gallery__
   - Low fidelity
-  ![image info](assets/wireframes/Gallery-page.png)
+  ![wireframes](assets/wireframes/Gallery-page.png)
   - High fidelity
-  ![image info](assets/wireframes/Gallery-page-High-fidelity.png)
+  ![wireframes](assets/wireframes/Gallery-page-High-fidelity.png)
 
 - __About__
   - Low fidelity
-  ![image info](assets/wireframes/About-page.png)
+  ![wireframes](assets/wireframes/About-page.png)
   - High fidelity
-  ![image info](assets/wireframes/About-page-High-fidelity.png)
+  ![wireframes](assets/wireframes/About-page-High-fidelity.png)
 
 - __Contact__
   - Low fidelity
-  ![image info](assets/wireframes/Contact-page.png)
+  ![wireframes](assets/wireframes/Contact-page.png)
   - High fidelity
-  ![image info](assets/wireframes/Contact-page-High-fidelity.png)
+  ![wireframes](assets/wireframes/Contact-page-High-fidelity.png)
   
 ### Existing Features
 
@@ -105,6 +108,17 @@
 
 ## Deployment
 
+-__Via github pages in the repo settings menu__
+
+- ![deployment procedure](assets/readme-images/deployment-procedure-1.png)
+
+- ![deployment procedure](assets/readme-images/deployment-procedure-2.png)
+
+-__Selected main branch and /root and clicked save__
+
+- ![deployment procedure](assets/readme-images/deployment-procedure-3.png)
+
+- ![deployment procedure](assets/readme-images/deployment-procedure-4.png)
 
 ## Credits 
 
