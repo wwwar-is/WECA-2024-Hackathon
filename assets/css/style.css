@@ -219,7 +219,7 @@ footer {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500%;
+    height: 550%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -243,25 +243,47 @@ footer {
 /* Contact page styling */
 
 .bg-image-contact-desktop {
-    background-image: url(../images/giger-blackhole-blur.png);
+    background-image: url(../images/gigerowski-blackhole-blur.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250%;
+    height: 150%;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
 
 .bg-image-contact-mobile {
-    background-image: url(../images/giger-blackhole-blur.png);
+    background-image: url(../images/gigerowski-blackhole-blur.png);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500%;
+    height: 175%;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
+
+.contact-white {
+    color:#BD2A12;
+    background-color: rgba(224, 224, 224, 0.8);
+}
+
+label {
+    font-family: Averia Serif Libre;
+    border-radius: 0% !important;
+    border: none !important;
+}
+
+input {
+    font-family: Averia Serif Libre;
+    border-radius: 0% !important;
+    border: none !important;
+}
+
+#email-input-field {
+    height: 300px;
+}
+
