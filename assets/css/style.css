@@ -41,6 +41,7 @@ nav,
 #nav-engineering-orange {
     color: #BD2A12;
     text-shadow: -1px -1px 0 #380C05, 1px -1px 0 #380C05, -1px 1px 0 #380C05, 1px 1px 0 #380C05;
+    letter-spacing: 2px;
 }
 
 nav,
@@ -60,6 +61,21 @@ nav,
 .navbar-toggler {
     color: #FACEC7;
 }
+
+@media (max-width: 768px) {
+    .navbar-collapse nav.navbar {
+      background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, #0F2C2E 50%);
+      width: 100%;
+      background-color: #0F2C2E; 
+    }
+}
+
+@media (max-width: 991px) { 
+    #nav-engineering-orange {
+    color: #BD2A12;
+    text-shadow: -1px -1px 0 #E0E0E0, 1px -1px 0 #E0E0E0, -1px 1px 0 #E0E0E0, 1px 1px 0 #E0E0E0;
+    }
+  }
 
 .active {
     text-decoration: underline;
@@ -94,7 +110,7 @@ p {
     background-repeat: no-repeat;
 }
 
-.hero-image {
+.hero-image-two {
     position: relative;
     height: 100vh; 
     background-size: cover;
@@ -103,28 +119,58 @@ p {
     background-repeat: no-repeat;
 }
 
-.hero-text {
-    position: absolute;
-    bottom: 400px; /* Adjust vertical position */
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 10px 20px;
-    border-radius: 5px;
-    max-width: 80%; /* Adjust width as needed */
+.hero-image-three {
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
-/* Custom CSS for alternating text position */
+.hero-text {
+    position: absolute;
+    bottom: 400px; 
+    color: #E0E0E0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    max-width: 80%; 
+    height: fit-content;
+}
+
+.hero-text-one {
+    position: absolute;
+    bottom: 400px; 
+    color:#E0E0E0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    max-width: 80%; 
+    height: fit-content;
+}
+
+
+/*alternating text position */
+.hero-text-one.left {
+    left: 80px; 
+    top: 400px;
+    padding-right: 10%;
+}
+
 .hero-text.left {
-    left: 100px; /* Adjust horizontal position */
+    left: 80px; 
+    top: 200px;
+    padding-right: 10%;
 }
 
 .hero-text.right {
-    right: 100px; /* Adjust horizontal position */
+    right: 80px; 
+    top: 200px;
+    padding-left: 10%;
 }
 
 /* Footer Styles */
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -171,12 +217,20 @@ footer {
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     color: #B3E3E6
 }
 
 #btn-back-to-top:hover {
     color: #0F2C2E;
+}
+
+.btn-danger {
+    background-color:#BD2A12;
+}
+
+.btn-danger:hover {
+    background-color:#B3E3E6;
 }
 
 .footer-nav-link {
