@@ -14,7 +14,18 @@
     <!-- Title -->
     <title>Z.D. Gigerowski</title>
 </head>
-<body>
+<body id="about-page">
+    <!-- Background image-->
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="bg-image-about-desktop d-none d-lg-block">
+             </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="bg-image-about-mobile d-block d-lg-none">
+             </div>
+        </div>
+    </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -54,35 +65,86 @@
             </div>
         </div>
     </nav>
+    <!-- Spacing between article and navbar-->
+    <div class="container">
+        <div class="row" style="height: 150px;">
+            <div class="col-12">
+            </div>
+        </div>
+    </div> 
     <!-- Main content -->
+    <article class="container about-page">
+        <div class="row align-items-center">
+            <div class="col-12 order-1 d-block d-lg-none about-red">
+                <H2 class="pt-3">Early Life</H2>
+            </div> 
+            <div class="col-12 col-lg-4 order-2 about-black-transparent">
+                <img class="img-fluid" src="assets/images/zdg-blackandwhite-cropped.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-8 order-3 about-red">
+                <H2 class="d-none d-lg-block pt-3">Early Life</H2>
+                <p class="pt-3">Z.D. Gigerowski, born in the vibrant city of Krakow, Poland, was destined for artistic greatness from an early age. Surrounded by the rich cultural tapestry of his homeland, he found solace and inspiration in the winding streets adorned with centuries-old architecture and the haunting melodies of folk music. As a child, Gigerowski was captivated by the intricate details of Renaissance art and the surrealistic visions of Salvador Dali, sparking a fire within him to create. Encouraged by his supportive family, he trained in classical portraiture and spent countless hours developing a distinctive style characterized by its blend of dark, ethereal imagery and intricate detail. These formative years laid the foundation for Gigerowski's future as a visionary artist, poised to leave an indelible mark on the world stage.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row align-items-center">
+            <div class="col-12 order-1 d-block d-lg-none about-white">
+                <H2 class="pt-3">Art Philosophy</H2>
+            </div>  
+            <div class="col-12 col-lg-8 order-3 order-lg-1 about-white">
+                <H2 class="d-none d-lg-block pt-3">Art Philosophy</H2>
+                <p class="pt-3">Z.D. Gigerowski's art philosophy is a testament to his deep-rooted belief in the power of the subconscious mind and the boundless potential of imagination. Drawing inspiration from the surrealists who came before him, Gigerowski embraces the notion that art is a gateway to the subconscious, a realm where reality and fantasy intertwine in a mesmerizing dance. His work is a visual exploration of the human psyche, delving into the darkest recesses of the mind to unearth hidden truths and untapped creativity.Through his intricately detailed compositions and haunting imagery, he invites viewers to embark on a journey of self-discovery, encouraging them to confront their deepest fears and embrace the beauty of the unknown.</p>
+            </div>            
+            <div class="col-12 col-lg-4 order-2 order-lg-2 about-black-transparent">
+                <img class="img-fluid" src="assets/images/zdg-thinking-cropped.jpg" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row align-items-center">
+            <div class="col-12 order-1 d-block d-lg-none about-red">
+                <H2 class="pt-3">Achievements and Milestones</H2>
+            </div> 
+            <div class="col-12 col-lg-4 order-2 about-black-transparent">
+                <img class="img-fluid" src="assets/images/zdg-painting-cropped.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-8 order-3 about-red">
+                <H2 class="d-none d-lg-block pt-3">Achievements and Milestones</H2>
+                <p class="pt-3">Throughout his illustrious career, Z.D. Gigerowski has amassed a remarkable array of achievements and milestones that have solidified his status as a visionary artist of unparalleled talent. His groundbreaking debut solo exhibition at the prestigious Museum of Modern Art in Warsaw garnered widespread acclaim for its daring exploration of the subconscious mind and its profound impact on artistic expression. Gigerowski's iconic masterpiece, "Eclipse of the Soul," captured the imagination of critics and art enthusiasts alike, earning him the coveted Golden Brush Award for Excellence in Contemporary Art. His work has been featured in renowned galleries and museums around the world, from New York to Tokyo, cementing his reputation as a global force in the realm of surrealism. </p>
+            </div>
+        </div>
+    </article>
     <!-- Footer -->
     <footer class="container-fluid py-3 footer-background">
         <div class="row">
             <!-- Footer Nav links -->
-            <div class="text-center h3 col-sm-4">
-                <div class="container-fluid">
-                    <a href="index.html" class="nav-link footer-nav-link footer-text-border-nav footer-nav-item" id="nav-engineering-orange">Home</a>
-                    <a href="about.html" class="nav-link active footer-nav-link footer-text-border-nav footer-nav-item" id="nav-engineering-orange">About</a>
-                    <a href="gallery.html" class="nav-link footer-nav-link footer-text-border-nav footer-nav-item" id="nav-engineering-orange">Gallery</a>
-                    <a href="contact.html" class="nav-link footer-nav-link footer-text-border-nav footer-nav-item" id="nav-engineering-orange">Contact</a>
-                </div>
+            <div class="text-center col-sm-4">
+                <!-- Back to top button -->
+                <a href="#"><button type="button" data-mdb-button-init data-mdb-ripple-init
+                        class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+                        <i class="fas fa-arrow-up"></i>
+                    </button></a>
             </div>
-            <!-- Footer title and copywrite -->    
+            <!-- Footer title and copywrite -->
             <div class="container text-center col-sm-4">
-                <p class="footer-font footer-border-text text-center display-3">The Art of Z.D. Gigerowski</p>
-                <small class="text-center footer-font-secondary text-shadow">Copyright by Gigerowski and Co. All rights reserved.</small>
+                <small class="text-center footer-font-secondary text-shadow">Copyright by Gigerowski and Co.</small>
             </div>
             <!-- Footer social links -->
-            <div class="text-center h3 col-sm-4">
+            <div class="text-center h2 col-sm-4">
                 <div>
-                    <a href="https://www.facebook.com/" class="px-2" target="”_blank”"><i class="fa-brands fa-facebook footer-nav-link"></i></a>
-                    <a href="https://www.instagram.com/" class="px-2" target="”_blank”"><i class="fa-brands fa-instagram footer-nav-link"></i></a>
-                    <a href="https://twitter.com/?lang=en" class="px-2" target="”_blank”"><i class="fa-brands fa-x-twitter footer-nav-link"></i></a>
-                    <a href="https://www.youtube.com/" class="px-2" target="”_blank”"><i class="fa-brands fa-youtube footer-nav-link"></i></a>
+                    <a href="https://www.facebook.com/" class="px-2" target="”_blank”"><i
+                            class="fa-brands fa-facebook footer-nav-link"></i></a>
+                    <a href="https://www.instagram.com/" class="px-2" target="”_blank”"><i
+                            class="fa-brands fa-instagram footer-nav-link"></i></a>
+                    <a href="https://twitter.com/?lang=en" class="px-2" target="”_blank”"><i
+                            class="fa-brands fa-x-twitter footer-nav-link"></i></a>
+                    <a href="https://www.youtube.com/" class="px-2" target="”_blank”"><i
+                            class="fa-brands fa-youtube footer-nav-link"></i></a>
                 </div>
             </div>
         </div>
+        </div>
     </footer>
+
 <!-- Back to top button -->
 <a href="#"><button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
